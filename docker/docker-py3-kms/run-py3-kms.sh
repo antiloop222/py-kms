@@ -2,7 +2,7 @@ docker stop py3-kms
 docker rm py3-kms
 docker run -d --name py3-kms \
     -t \
-    -p 8081:8081 \
+    -p 8081:8080 \
     -p 1688:1688 \
     -e IP=0.0.0.0 \
     -e PORT=1688 \
