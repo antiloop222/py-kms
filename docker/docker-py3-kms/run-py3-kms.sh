@@ -2,7 +2,7 @@ docker stop py3-kms
 docker rm py3-kms
 docker run -d --name py3-kms \
     -t \
-    -p 8080:8080 \
+    -p 8081:8081 \
     -p 1688:1688 \
     -e IP=0.0.0.0 \
     -e PORT=1688 \
@@ -13,4 +13,4 @@ docker run -d --name py3-kms \
     -e LOGSIZE=2 \
     -v /etc/localtime:/etc/localtime:ro \
     -v /var/log:/var/log:rw \
-    --restart unless-stopped pykmsorg/py-kms:python3
+    --restart unless-stopped pykms/pykms:py3-kms

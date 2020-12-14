@@ -24,7 +24,7 @@ RUN apk add --no-cache --update \
 	python3-tkinter \
 	sqlite-libs \
 	py3-pip && \
-    git clone https://github.com/SystemRage/py-kms.git /tmp/py-kms && \
+    git clone https://github.com/antiloop222/py-kms.git /tmp/py-kms && \
     git clone https://github.com/coleifer/sqlite-web.git /tmp/sqlite_web && \
     mv /tmp/py-kms/py-kms /home/ && \
     mv /tmp/sqlite_web/sqlite_web /home/ && \
