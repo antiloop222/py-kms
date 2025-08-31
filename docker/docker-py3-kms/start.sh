@@ -1,6 +1,4 @@
 #!/bin/bash
-# EN: Start daemons
-# RU: Запуск демонов
 cd /home/py-kms
 if [ "$SQLITE" == false ];
 then
